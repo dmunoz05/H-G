@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prueba</title>        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="main.js" ></script>
+        <div class="md:container md:mx-auto  border-solid border-2 border-black p-2">
+
+            <h1 class="text-2xl font-bold p-1">Registro Consumo de Agua</h1>
+
+            <hr class="border-solid border-1 border-black">
+
+            <div class="p-2" >
+
+                <br>
+
+                <label class="font-mono text-xl">Nombre: </label> 
+                &nbsp;
+                &nbsp;
+                &nbsp;                
+                <input id="nombre" type="text" class="border-solid border-2 border-black" name="nombre">
+
+                <div style="text-align: center;">
+                    <button id="boton" onclick="mostrar()" class="bg-slate-500 border-double border-2 border-black p-1 font-mono" name="boton">
+                        Mostrar
+                    </button>
+                </div>
+
+                <label class="font-mono text-xl">Apellido: </label> 
+                &nbsp;
+                <input id="apellido" type="text" class="border-solid border-2 border-black" name="apellido">                                              
+            
+                <br>    
+                <br>          
+                <br>  
+
+                <label class="font-mono text-xl">Nombre Completo: </label> 
+                <input id="nombre_completo" type="text" class="border-dotted border-2 border-black w-64" name="nombre_completo" readonly>                                              
+                 
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <div class="p-2">
+                <label class="font-mono text-xl">Cantidad de vasos consumidos en 5 días: </label>                 
+                <input id="cinco" class="border-dotted border-2 border-black w-10" name="nombre_completo" readonly>                                              
+                
+                <br>
+                <br>
+
+                <label class="font-mono text-xl">Dia 1: </label> 
+                <input id="Dia1" type="text"class="border-solid border-2 border-black">
+
+                <br>
+                <br>
+
+                <label class="font-mono text-xl">Dia 2: </label> 
+                <input id="Dia2" type="text"class="border-solid border-2 border-black" >
+                
+                <br>
+                <br>
+
+                <label class="font-mono text-xl"> Dia 3: </label> 
+                <input id="Dia3" type="text" class="border-solid border-2 border-black" >
+                
+                <br>
+                <br>
+
+                <label class="font-mono text-xl"> Dia 4: </label> 
+                <input id="Dia4" type="text" class="border-solid border-2 border-black" >
+
+                <br>
+                <br>
+
+                <label class="font-mono text-xl"> Dia 5: </label> 
+                <input onchange="sumar5()" id="Dia5" type="text" class="border-solid border-2 border-black" >
+
+                <br>
+                <br>
+
+                <label class="font-mono text-xl"> Dia 6: </label> 
+                <input id="Dia6" type="text" class="border-solid border-2 border-black" > 
+
+                <br>
+                <br>
+
+                <label class="font-mono text-xl"> Dia 7: </label> 
+                <input onchange="sumar()" id="Dia7" type="text" class="border-solid border-2 border-black" >
+
+                <!-- <div style="text-align: center;">
+                    <button class="bg-slate-500 border-double border-2 border-black p-1 font-mono" name="btnprueba" onclick="sumar()">
+                        Sumar
+                    </button>
+                </div> -->
+
+                <br>
+                <br>
+                
+                <label class="font-mono text-xl">Total de vasos consumidos: </label> 
+                <input id="total" class="border-dotted border-2 border-black w-64" name="total" readonly>                                              
+ 
+                <br>
+                <br>
+                
+            </div>
+
+           
+            
+
+            
+
+
+        </div>
+    </body>
+</html>
