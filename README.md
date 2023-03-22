@@ -1,6 +1,31 @@
-# H-G
-H&amp;G HTML Javascript
+# Task-React
 
-Aplicación para contar vasos de agua bebidos en el día
+Aplicación para contar vasos de agua bebidos en el día, uso sencillo para guía de html, taiwild y javascript.
 
-Simplemente clona el repositorio, guardalo en tu equipo en una carpeta y accede a el archivo index.
+
+# Requerimientos
+- Taiwild
+- JavaScript.js
+- Git
+- IDE (preferiblemente Visual Studio Code)
+
+
+
+# Instalación
+- git clone https://github.com/elflacowinner/H-G.git
+
+- guardar carpeta
+
+- acceder a el index
+
+# Uso
+
+- Ingresa tu nombre
+- Ingresa los vasos bebidos por día
+- Contabiliza tu rutina de bebida
+
+
+
+
+
+
