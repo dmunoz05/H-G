@@ -1,4 +1,4 @@
-# Task-React
+# JavaScript Easy
 
 Aplicación para contar vasos de agua bebidos en el día, uso sencillo para guía de html, taiwild y javascript.
 
